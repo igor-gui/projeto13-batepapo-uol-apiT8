@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "dev"
+    "dev": "npx nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -12,6 +12,21 @@
   },
   "author": "Igor Guimarães",
   "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dayjs": "^1.10.4",
+    "dotenv": "^9.0.2",
+    "express": "^4.18.2",
+    "jest": "^26.6.3",
+    "joi": "^17.4.0",
+    "jsonfile": "^6.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "nock": "^13.0.11",
+    "nodemon": "^2.0.7",
+    "supertest": "^6.1.3"
+  },
   "bugs": {
     "url": "https://github.com/igor-gui/projeto13-batepapo-uol-api/issues"
   },
