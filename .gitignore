@@ -10,6 +10,7 @@
 
 # production
 /build
+/front-bate-papo-uol
 
 # misc
 .DS_Store
